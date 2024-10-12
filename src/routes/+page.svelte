@@ -4,7 +4,7 @@
 </script>
 
 <NavBar></NavBar>
-<Hero></Hero>
+<Hero imageUrlD="hero-home-min.jpg" imageUrlM="home-hero-min.jpg"></Hero>
 <!-- <CenterText></CenterText>
 <ImageSplit></ImageSplit>
 <InstaFeed></InstaFeed>
