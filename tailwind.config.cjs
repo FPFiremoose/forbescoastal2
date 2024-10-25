@@ -12,7 +12,7 @@ const config = {
 			}
 		},
 		fontFamily: {
-			primary: 'Inter, sans-serif'
+			primary: 'Century Gothic, sans-serif'
 		}
 	},
 
