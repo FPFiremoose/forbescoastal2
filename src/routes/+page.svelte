@@ -30,6 +30,6 @@
 	space should be an extension of the rest of your home, so we consider the sunrise, sunset, and
 	views before even starting the construction process to ensure you</ImageSplit
 >
-<InstaFeed></InstaFeed>
-<Benefits></Benefits>
+<!-- <InstaFeed></InstaFeed> -->
+<Benefits bg=""></Benefits>
 <Contact></Contact>

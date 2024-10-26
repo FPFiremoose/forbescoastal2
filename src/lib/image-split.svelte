@@ -8,7 +8,7 @@
 		<img src="/home2.jpg" alt="Image description" class="h-auto w-full" />
 	</div>
 	<div class="flex w-full flex-col justify-center px-[160px] md:w-1/2">
-		<h2 class="text-center text-[60px] text-[#001940] md:text-left">{heading}</h2>
+		<h2 class="text-center text-[60px] leading-10 text-[#001940] md:text-left">{heading}</h2>
 		<div class="mt-[60px] text-center text-[#001940] md:text-left">
 			<slot></slot>
 		</div>
