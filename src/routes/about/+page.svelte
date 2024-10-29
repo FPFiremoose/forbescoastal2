@@ -40,4 +40,5 @@
 	municipalities all the way through delivering our homes to our staisfied homeowners.</CenterText
 >
 <Team></Team>
+<Banner></Banner>
 <Contact></Contact>
