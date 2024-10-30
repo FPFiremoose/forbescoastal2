@@ -12,10 +12,9 @@
 
 <NavBar></NavBar>
 <Hero
-	imageUrlD="home-hero-min.jpg"
+	imageUrlD="about-hero.jpg"
 	imageUrlM="home-hero-min.jpg"
-	heading="Create"
-	message="Design anything, build everything"
+	heading="Take Your Project To the Next Level"
 ></Hero>
 <CenterText
 	>As a family-owned business with 15 years of experience, we pride ourselves on the core values of

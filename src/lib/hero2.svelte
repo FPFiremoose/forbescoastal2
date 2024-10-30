@@ -6,7 +6,7 @@
 	export let imageUrlM;
 	export let imageUrlD;
 	export let heading = 'Your Heading Here';
-	export let message = 'Your message here';
+	export let message;
 
 	let imageUrl = ''; // This will hold the URL for the currently appropriate image
 
@@ -51,8 +51,9 @@
 	>
 		<div class="flex max-w-2xl flex-col text-center md:text-left">
 			<h1 class="font-bold md:text-[150px] md:leading-[140px]">{heading}</h1>
-			<p class="text-lg font-semibold md:text-4xl">{message}</p>
-
+			{#if message}
+				<p class="text-lg font-semibold md:text-4xl">{message}</p>
+			{/if}
 			<!-- Button component can be imported and used here -->
 			<div class="mt-6">
 				<Button>Schedule an appointment</Button>

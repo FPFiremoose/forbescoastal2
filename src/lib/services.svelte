@@ -2,17 +2,41 @@
 	import Service from '$lib/service.svelte';
 </script>
 
-<section class="bg-sky px-24">
+<section class="bg-sky px-24 py-24 font-primary text-navy 2xl:px-[300px]">
 	<div>
-		<h3>Services</h3>
-		<p>Our attention to detail is unmatched in the industry</p>
+		<h3 class="pb-10 text-5xl">Services</h3>
+		<p class="pb-20">Our attention to detail is unmatched in the industry</p>
 	</div>
-	<div class="flex flex-row">
-		<Service heading="Kitchen Remodelling"></Service>
-		<Service heading="Bathroom Remodelling"></Service>
-		<Service heading="Full Home Remodelling"></Service>
-		<Service heading="Home Additions"></Service>
-		<Service heading="Hardscaping"></Service>
-		<Service heading="Estate Management"></Service>
+	<div class="flex flex-row flex-wrap gap-x-12 2xl:gap-24">
+		<Service heading="Kitchen Remodelling"
+			>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab, vero laborum aut
+			praesentium, ipsum dicta fugiat delectus laudantium quia at iusto? Perferendis odit quibusdam
+			sit exercitationem dolorem, fugit ipsa!</Service
+		>
+		<Service heading="Bathroom Remodelling"
+			>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sint magnam sed molestias
+			quasi blanditiis neque explicabo fugit possimus! Non obcaecati id sequi sunt officia debitis
+			minus asperiores, incidunt eius?</Service
+		>
+		<Service heading="Full Home Remodelling"
+			>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta dolores commodi
+			distinctio harum voluptatibus fugiat corrupti aliquam quos voluptatem. Voluptas quia officiis
+			enim culpa dolores nemo, hic laudantium accusamus!</Service
+		>
+		<Service heading="Home Additions"
+			>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cum adipisci quaerat quis
+			hic numquam, dignissimos asperiores modi, excepturi fugit, quos reiciendis ad velit. Nobis
+			blanditiis itaque mollitia animi nihil!</Service
+		>
+		<Service heading="Hardscaping"
+			>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque a placeat, obcaecati mollitia
+			nam nihil nobis tenetur modi iure accusantium sit sint molestias. Laboriosam perferendis illum
+			blanditiis earum optio in!</Service
+		>
+		<Service heading="Estate Management"
+			>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, omnis assumenda voluptas
+			perspiciatis esse doloremque fugiat atque maxime harum ducimus quaerat earum quae cupiditate.
+			Omnis iure ipsam nihil pariatur quam!</Service
+		>
 	</div>
 </section>

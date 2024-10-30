@@ -3,8 +3,8 @@
 	export let heading = 'Kitchen Remodelling';
 </script>
 
-<div class="basis-1/3">
-	<img {src} alt="" />
-	<h4>{heading}</h4>
-	<p><slot></slot></p>
+<div class="flex-shrink-0 flex-grow-0 basis-[30%] font-primary text-navy">
+	<img {src} class="mb-12" alt="" />
+	<h4 class="mb-5 text-2xl font-bold">{heading}</h4>
+	<p class=""><slot></slot></p>
 </div>
