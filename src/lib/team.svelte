@@ -4,7 +4,7 @@
 
 <section class="flex flex-col items-center px-24 font-primary text-navy">
 	<div class="py-24">
-		<h2 class="text-6xl font-bold">{heading}</h2>
+		<h2 class="font-bold md:text-4xl">{heading}</h2>
 	</div>
 	<div class="flex flex-row justify-between">
 		<div class="basis-5/12">

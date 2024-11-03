@@ -7,7 +7,7 @@
 	import Benefits from '$lib/benefits.svelte';
 	import Contact from '$lib/contact.svelte';
 
-	const subheading = 'From concept to completion, we bring your dream home to life';
+	const subheading = "From concept to completion</br> we bring your dream home to life";
 	const sec2heading = 'View our collection of custom projects';
 </script>
 

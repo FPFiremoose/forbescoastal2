@@ -5,6 +5,6 @@
 
 <div class="basis-1/3 text-center">
 	<img class="w-auto" {src} alt="" />
-	<h3 class="text-5xl font-bold text-navy">{heading}</h3>
-	<p class="text-4xl text-navy"><slot></slot></p>
+	<h3 class="mt-6 font-bold text-navy md:text-2xl">{heading}</h3>
+	<p class="mt-3 text-navy md:text-xl"><slot></slot></p>
 </div>

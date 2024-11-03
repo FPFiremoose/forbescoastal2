@@ -1,17 +1,36 @@
 <script>
+	// Define a prop for the heading text
 	export let heading = '';
+
+	// Import a reusable Button component
 	import Button from '$lib/button.svelte';
 </script>
 
-<section class="flex w-full flex-col items-center bg-sky md:flex-row md:items-start">
+<!-- Main container section with responsive layout for alignment -->
+<section
+	class="flex h-[540px] w-full flex-col items-center bg-sky font-primary text-navy md:flex-row md:items-start"
+>
+	<!-- Image section (left on larger screens, top on smaller screens) -->
 	<div class="w-full md:w-1/2">
-		<img src="/home2.jpg" alt="Image description" class="h-auto w-full" />
+		<!-- Responsive image that fills the container width -->
+		<img src="/home2.jpg" alt="" class="h-auto w-full" />
 	</div>
-	<div class="flex w-full flex-col justify-center px-[160px] md:w-1/2">
-		<h2 class="text-center text-[60px] leading-10 text-[#001940] md:text-left">{heading}</h2>
-		<div class="mt-[60px] text-center text-[#001940] md:text-left">
+
+	<!-- Content section containing heading, slot content, and button -->
+	<div
+		class="flex h-full w-full flex-col items-center justify-center text-left md:w-1/2 md:px-20 md:text-center 2xl:px-[160px]"
+	>
+		<!-- Heading with responsive text alignment and styling -->
+		<h2 class="font-bold md:text-4xl 2xl:text-[60px]">
+			{heading}
+		</h2>
+
+		<!-- Slot for injecting additional content from the parent component -->
+		<div class="mb-11 mt-[30px] text-[#001940]">
 			<slot></slot>
 		</div>
+
+		<!-- Button component for a call-to-action -->
 		<Button>Schedule an appointment</Button>
 	</div>
 </section>

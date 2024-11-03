@@ -1,6 +1,6 @@
 <script>
 	import NavBar from '$lib/navbar.svelte';
-	import Hero from '$lib/hero2.svelte';
+	import Hero from '$lib/hero.svelte';
 	import CenterText from '$lib/center-text.svelte';
 	import Contact from '$lib/contact.svelte';
 	import Team from '$lib/team.svelte';
@@ -14,7 +14,7 @@
 <Hero
 	imageUrlD="about-hero.jpg"
 	imageUrlM="home-hero-min.jpg"
-	heading="Take Your Project To the Next Level"
+	heading="Take Your Project To <br>the Next Level"
 ></Hero>
 <CenterText
 	>As a family-owned business with 15 years of experience, we pride ourselves on the core values of

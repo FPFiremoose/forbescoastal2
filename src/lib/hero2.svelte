@@ -37,7 +37,7 @@
 	<!-- Background Image -->
 	{#if imageUrl}
 		<div
-			class="h-[90vh] w-full bg-cover bg-center md:h-screen"
+			class="w-full bg-cover bg-center md:h-[85vh] 2xl:h-[90vh]"
 			style="background-image: url({imageUrl});"
 		></div>
 	{/if}
@@ -50,12 +50,12 @@
 		class="absolute inset-0 flex items-center justify-center text-sand md:items-end md:justify-start md:px-10 md:py-10"
 	>
 		<div class="flex max-w-2xl flex-col text-center md:text-left">
-			<h1 class="font-bold md:text-[150px] md:leading-[140px]">{heading}</h1>
+			<h1 class="font-bold md:text-7xl 2xl:text-[150px]">{heading}</h1>
 			{#if message}
-				<p class="text-lg font-semibold md:text-4xl">{message}</p>
+				<p class="text-lg font-semibold md:text-3xl">{message}</p>
 			{/if}
 			<!-- Button component can be imported and used here -->
-			<div class="mt-6">
+			<div class="mt-8">
 				<Button>Schedule an appointment</Button>
 			</div>
 		</div>
