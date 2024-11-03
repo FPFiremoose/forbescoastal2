@@ -13,7 +13,7 @@
 <NavBar></NavBar>
 <Hero
 	imageUrlD="about-hero.jpg"
-	imageUrlM="home-hero-min.jpg"
+	imageUrlM="about-hero-mobile.jpg"
 	heading="Take Your Project To <br>the Next Level"
 ></Hero>
 <CenterText

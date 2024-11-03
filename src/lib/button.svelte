@@ -10,7 +10,7 @@
 	<!-- If href is passed, render an <a> tag -->
 	<a
 		{href}
-		class={`inline-block rounded bg-primary px-6 py-2 text-white transition-all duration-300 hover:bg-navy ${className}`}
+		class={`inline-block rounded bg-primary px-1 py-2 text-white transition-all duration-300 hover:bg-navy md:px-6 ${className}`}
 		role="button"
 		aria-disabled={disabled ? 'true' : 'false'}
 		on:click|preventDefault={disabled}
@@ -22,7 +22,7 @@
 	<!-- If href is not passed, render a <button> tag -->
 	<button
 		{type}
-		class={`rounded bg-primary px-6 py-2 text-white transition-all duration-300 hover:bg-navy disabled:cursor-not-allowed disabled:opacity-50 ${className}`}
+		class={`w-fit rounded bg-primary px-6 py-2 text-white transition-all duration-300 hover:bg-navy disabled:cursor-not-allowed disabled:opacity-50 ${className}`}
 		{disabled}
 	>
 		<slot></slot>

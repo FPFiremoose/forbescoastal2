@@ -8,7 +8,7 @@
 
 <!-- Main container section with responsive layout for alignment -->
 <section
-	class="flex h-[100vh] w-full flex-col items-center bg-sky font-primary text-navy md:h-[540px] md:flex-row md:items-start"
+	class="flex h-[90vh] w-full flex-col items-center bg-sky font-primary text-navy md:h-[540px] md:flex-row md:items-start"
 >
 	<!-- Image section (left on larger screens, top on smaller screens) -->
 	<div class="w-full md:w-1/2">

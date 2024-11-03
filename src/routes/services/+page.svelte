@@ -10,17 +10,19 @@
 </script>
 
 <NavBar></NavBar>
-<Hero
-	imageUrlD="services-hero.jpg"
-	imageUrlM="home-hero-min.jpg"
-	heading="Create"
-	message="Design anything, build everything"
+<Hero imageUrlD="services-hero.jpg" imageUrlM="services-hero-mobile.jpg" heading="Build Anything"
 ></Hero>
 
-<CenterText
-	>As a family-owned business with 15 years of experience, we pride ourselves on the core values of
-	craftsmanship, dedication, and an unwavering commitment to custom-home building excellence. Our
-	journey is defined by Brady Forbes, owner and operator of Forbes Coastal Builders.</CenterText
+<CenterText heading="Transform Your Home with FCB"
+	>At Forbes Coastal Builders, we specialize in full house remodels that transform your living space
+	into the home of your dreams. Whether you're considering a partial home renovation to update your
+	interiors or a full home remodel to create an entirely new layout, our experienced team is here to
+	help. <br /><br />
+
+	Our comprehensive services include everything from initial design consultations to final touches,
+	ensuring that your full house renevation meets your expectations in every way. With a committment
+	to quality and attentiont to detail, we bring your vision to life while adhering to your budget
+	and timeline.</CenterText
 >
 <Services></Services>
 <Contact></Contact>
