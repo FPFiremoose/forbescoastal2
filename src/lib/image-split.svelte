@@ -18,7 +18,7 @@
 
 	<!-- Content section containing heading, slot content, and button -->
 	<div
-		class="flex h-full w-full flex-col items-center justify-center px-[10vw] text-left md:w-1/2 md:px-20 md:text-center 2xl:px-[160px]"
+		class="flex h-full w-full flex-col justify-center px-[5vw] text-left md:w-1/2 md:items-center md:px-20 md:text-center 2xl:px-[160px]"
 	>
 		<!-- Heading with responsive text alignment and styling -->
 		<h2 class="text-xl font-bold md:text-4xl 2xl:text-[60px]">
