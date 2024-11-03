@@ -4,7 +4,9 @@
 </script>
 
 <section>
-	<div class="flex flex-row justify-center gap-10 {bg} px-24 pt-24">
+	<div
+		class="flex flex-col justify-center gap-20 md:flex-row md:gap-10 {bg} px-[5vw] py-[10vh] md:px-24 md:pt-24"
+	>
 		<Benefit src="benefit1.jpg" heading="Personalized Process"
 			>We work with you from start to finish to bring your custom dream home to life. We bring
 			together a team of skilled architects, designers, landscape architects, subcontractors, and

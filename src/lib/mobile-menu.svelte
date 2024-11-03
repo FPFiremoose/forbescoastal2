@@ -22,11 +22,11 @@
 <div
 	id="hamburger"
 	on:click={toggleMenu}
-	class="absolute right-10 top-6 z-10 flex cursor-pointer flex-col gap-[3px] md:hidden"
+	class="absolute right-[15vw] top-1/2 z-10 flex -translate-y-[40%] cursor-pointer flex-col gap-[3px] md:hidden"
 >
-	<div class="h-[2px] w-8 bg-primary"></div>
-	<div class="h-[2px] w-8 bg-primary"></div>
-	<div class="h-[2px] w-8 bg-primary"></div>
+	<div class="h-[3px] w-8 bg-primary"></div>
+	<div class="h-[3px] w-8 bg-primary"></div>
+	<div class="h-[3px] w-8 bg-primary"></div>
 	<p class="self-center font-primary text-[10px] font-light text-primary">Menu</p>
 	<!-- <img src="ham.png" alt="" /> -->
 </div>

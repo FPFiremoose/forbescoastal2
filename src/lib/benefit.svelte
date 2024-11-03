@@ -3,8 +3,8 @@
 	export let heading = 'test';
 </script>
 
-<div class="basis-1/3 text-center">
+<div class="basis-1/3 text-navy md:text-center">
 	<img class="w-auto" {src} alt="" />
-	<h3 class="mt-6 font-bold text-navy md:text-2xl">{heading}</h3>
+	<h3 class="mt-6 text-lg font-bold text-navy md:text-2xl">{heading}</h3>
 	<p class="mt-3 text-navy md:text-xl"><slot></slot></p>
 </div>

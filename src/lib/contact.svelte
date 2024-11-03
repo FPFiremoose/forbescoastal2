@@ -10,11 +10,11 @@
 			Get in touch below. Ask any question or schedule an appointment.
 		</h2>
 	</div>
-	<div class="flex flex-row justify-between md:gap-20">
-		<div class="flex-shrink basis-1/2">
+	<div class="flex flex-col justify-between md:flex-row md:gap-20">
+		<div class="order-2 flex-shrink basis-1/2 md:order-1">
 			<ContactForm />
 		</div>
-		<div class="flex-shrink-[2] basis-1/2">
+		<div class="order-1 flex-shrink-[2] basis-1/2 md:order-2">
 			<ContactInfo />
 		</div>
 	</div>
