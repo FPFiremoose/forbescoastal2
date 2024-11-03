@@ -24,7 +24,7 @@
 </script>
 
 <form
-	class="mx-auto w-full basis-1/2 space-y-4 rounded-lg bg-white"
+	class="relative z-10 mx-auto w-full basis-1/2 space-y-4 rounded-lg bg-white"
 	on:submit|preventDefault={handleSubmit}
 >
 	<div>

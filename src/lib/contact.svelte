@@ -3,9 +3,9 @@
 	import ContactInfo from '$lib/contact-info.svelte';
 </script>
 
-<section class="relative md:px-20 2xl:px-40">
+<section class="relative md:px-20 md:py-24 2xl:px-40">
 	<div class="font-primary text-navy md:pb-12 2xl:pb-24">
-		<p class="md:text-lg 2xl:text-2xl">Message us</p>
+		<p id="contact" class="md:text-lg 2xl:text-2xl">Message us</p>
 		<h2 class="max-w-[70%] font-bold md:text-4xl 2xl:text-6xl">
 			Get in touch below. Ask any question or schedule an appointment.
 		</h2>
@@ -18,5 +18,5 @@
 			<ContactInfo />
 		</div>
 	</div>
-	<!--	<img src="logo.svg" class="absolute bottom-0 left-0" alt="" /> -->
+	<img src="logo-mark.svg" class="absolute bottom-0 left-0 opacity-30 md:w-[500px]" alt="" />
 </section>
