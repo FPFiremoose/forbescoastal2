@@ -47,10 +47,10 @@
 
 	<!-- Content (Text + Button) -->
 	<div
-		class="absolute inset-0 flex items-end justify-start px-[5vw] py-[4vh] text-sand md:px-10 md:py-10"
+		class="absolute inset-0 flex items-end justify-start px-[5vw] py-[6vh] text-sand md:px-10 md:py-10 2xl:px-[5vw] 2xl:py-[8vh]"
 	>
 		<div class="flex max-w-2xl flex-col text-left">
-			<h1 class="text-3xl font-bold md:text-5xl 2xl:text-[150px]">{@html heading}</h1>
+			<h1 class="2xl:text-4xl4xl4xl4xl text-3xl font-bold md:text-6xl">{@html heading}</h1>
 			{#if message}
 				<p class="text-lg font-semibold md:text-3xl">{message}</p>
 			{/if}

@@ -48,7 +48,7 @@
 
 	<!-- Content (Text + Button) -->
 	<div
-		class="absolute inset-0 flex items-end justify-start px-[5vw] py-[6vh] text-sand md:px-10 md:py-10"
+		class="absolute inset-0 flex items-end justify-start px-[5vw] py-[6vh] text-sand md:px-10 md:py-10 2xl:px-[5vw] 2xl:py-[8vh]"
 	>
 		<div class="flex max-w-2xl flex-col text-left">
 			<h1 class="text-4xl font-bold md:text-7xl 2xl:text-[150px]">{heading}</h1>
@@ -56,7 +56,7 @@
 				<p class="text-lg font-semibold md:text-3xl">{message}</p>
 			{/if}
 			<!-- Button component can be imported and used here -->
-			<div class="mt-4 md:mt-8">
+			<div class="mt-4 md:mt-8 2xl:mt-[5vh]">
 				<Button {href}>Schedule an appointment</Button>
 			</div>
 		</div>

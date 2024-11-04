@@ -24,7 +24,7 @@
 </script>
 
 <form
-	class="relative z-10 mx-auto w-full basis-1/2 space-y-4 rounded-lg bg-white"
+	class="relative z-10 mx-auto w-full basis-1/2 space-y-4 rounded-lg"
 	on:submit|preventDefault={handleSubmit}
 >
 	<div>
@@ -33,8 +33,8 @@
 			type="text"
 			id="name"
 			bind:value={formData.name}
-			class="w-full rounded border border-primary bg-sky bg-opacity-20 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-			placeholder="Your Name"
+			class="w-full rounded border border-primary bg-[#f6fcff] p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 2xl:p-4"
+			placeholder="Name"
 			required
 		/>
 	</div>
@@ -44,8 +44,8 @@
 			type="email"
 			id="email"
 			bind:value={formData.email}
-			class="w-full rounded border border-primary bg-sky bg-opacity-20 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-			placeholder="Your Email"
+			class="w-full rounded border border-primary bg-[#f6fcff] p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 2xl:p-4"
+			placeholder="Email"
 			required
 		/>
 	</div>
@@ -55,8 +55,8 @@
 			type="tel"
 			id="phone"
 			bind:value={formData.phone}
-			class="w-full rounded border border-primary bg-sky bg-opacity-20 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-			placeholder="Your Phone"
+			class="w-full rounded border border-primary bg-[#f6fcff] p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 2xl:p-4"
+			placeholder="Phone"
 			required
 		/>
 	</div>
@@ -65,8 +65,8 @@
 		<textarea
 			id="message"
 			bind:value={formData.message}
-			class="w-full rounded border border-primary bg-sky bg-opacity-20 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-			placeholder="Your Message"
+			class="w-full rounded border border-primary bg-[#f6fcff] p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+			placeholder="Message"
 			rows="4"
 			required
 		></textarea>
@@ -74,7 +74,7 @@
 	<div>
 		<button
 			type="submit"
-			class="focus:shadow-outline float-right w-1/3 rounded bg-primary px-4 py-2 font-bold text-white hover:bg-blue-700 focus:outline-none"
+			class="focus:shadow-outline float-right rounded bg-primary px-4 py-2 text-lg font-bold text-white hover:bg-blue-700 focus:outline-none 2xl:px-12"
 			>Submit</button
 		>
 	</div>

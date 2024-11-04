@@ -8,7 +8,7 @@
 
 <!-- Main container section with responsive layout for alignment -->
 <section
-	class="flex h-[90vh] w-full flex-col items-center bg-sky font-primary text-navy md:h-[540px] md:flex-row md:items-start"
+	class="flex h-[90vh] w-full flex-col items-center bg-sky font-primary text-navy md:h-[540px] md:flex-row md:items-start 2xl:h-[774px]"
 >
 	<!-- Image section (left on larger screens, top on smaller screens) -->
 	<div class="w-full md:w-1/2">
@@ -21,7 +21,7 @@
 		class="flex h-full w-full flex-col justify-center px-[5vw] text-left md:w-1/2 md:items-center md:px-20 md:text-center 2xl:px-[160px]"
 	>
 		<!-- Heading with responsive text alignment and styling -->
-		<h2 class="text-xl font-bold md:text-4xl 2xl:text-[60px]">
+		<h2 class="text-xl font-bold md:text-4xl 2xl:text-5xl">
 			{heading}
 		</h2>
 

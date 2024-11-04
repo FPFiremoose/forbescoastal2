@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="relative flex h-24 flex-row items-center justify-between px-[5vw] font-primary text-navy lg:h-24 lg:px-12 2xl:h-52 2xl:px-28"
+	class="relative flex h-24 flex-row items-center justify-between px-[5vw] font-primary text-navy lg:h-24 lg:px-12 2xl:h-32 2xl:px-[5vw]"
 >
 	<div class="">
 		<a href="/"
@@ -12,9 +12,9 @@
 		>
 	</div>
 	<div class="hidden w-auto flex-row items-center gap-10 md:flex">
-		<a data-sveltekit-preload-code="eager" href="/about" class="text-center">About</a>
-		<a data-sveltekit-preload-code="eager" href="/services">Services</a>
-		<a href="#contact">Contact</a>
+		<a data-sveltekit-preload-code="eager" href="/about" class="2xl:text-2xl">About</a>
+		<a data-sveltekit-preload-code="eager" href="/services" class="2xl:text-2xl">Services</a>
+		<a class="2xl:text-2xl" href="#contact">Contact</a>
 		<Button href="#contact">Schedule an Appointment</Button>
 	</div>
 	<MobileMenu />

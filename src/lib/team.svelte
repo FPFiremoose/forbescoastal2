@@ -3,10 +3,10 @@
 </script>
 
 <section
-	class="flex flex-col items-center px-[5vh] py-[5vh] font-primary text-navy md:px-24 md:py-[15vh]"
+	class="flex flex-col items-center px-[5vh] py-[5vh] font-primary text-navy md:px-[5vw] md:py-[15vh] 2xl:py-[8vh]"
 >
-	<div class="pb-8 md:pb-16">
-		<h2 class="text-4xl font-bold md:text-4xl">{heading}</h2>
+	<div class="pb-8 md:pb-16 2xl:pb-20">
+		<h2 class="text-4xl font-bold md:text-4xl 2xl:text-5xl">{heading}</h2>
 	</div>
 	<div class="flex flex-col justify-between gap-8 md:flex-row md:gap-0">
 		<div class="basis-5/12">

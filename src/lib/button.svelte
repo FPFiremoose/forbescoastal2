@@ -7,7 +7,7 @@
 <!-- If href is passed, render an <a> tag -->
 <a
 	{href}
-	class={`w-fit rounded bg-primary px-6 py-2 text-white transition-all duration-300 hover:bg-navy disabled:cursor-not-allowed disabled:opacity-50 ${className}`}
+	class={`w-fit rounded bg-primary px-6 py-2 text-white transition-all duration-300 hover:bg-navy disabled:cursor-not-allowed disabled:opacity-50 2xl:py-3 2xl:text-2xl ${className}`}
 >
 	<slot></slot>
 	<!-- Slot for button text/content -->

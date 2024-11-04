@@ -17,7 +17,7 @@
 	heading="Take Your Project To <br>the Next Level"
 	href="#contact"
 ></Hero>
-<CenterText
+<CenterText heading="Our History"
 	>As a family-owned business with 15 years of experience, we pride ourselves on the core values of
 	craftsmanship, dedication, and an unwavering commitment to custom-home building excellence. Our
 	journey is defined by Brady Forbes, owner and operator of Forbes Coastal Builders.</CenterText
