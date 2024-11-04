@@ -22,7 +22,7 @@
 <div
 	id="hamburger"
 	on:click={toggleMenu}
-	class="absolute right-[15vw] top-1/2 z-10 flex -translate-y-[40%] cursor-pointer flex-col gap-[3px] md:hidden"
+	class="absolute right-[15vw] top-1/2 z-10 flex -translate-y-[45%] cursor-pointer flex-col gap-[3px] md:hidden"
 >
 	<div class="h-[3px] w-8 bg-primary"></div>
 	<div class="h-[3px] w-8 bg-primary"></div>
@@ -33,10 +33,10 @@
 <div
 	id="mobile-menu"
 	class:open
-	class="bg-tertiary fixed left-0 top-0 z-10 h-[100vh] w-[100vw] -translate-x-full px-6 pt-4 duration-500"
+	class="fixed left-0 top-0 z-10 h-[100vh] w-[100vw] -translate-x-full bg-navy px-6 pt-4 duration-500"
 >
-	<div class="mb-24 flex flex-row justify-between">
-		<div class=" h-10 w-[150px]">
+	<div class="mb-24 flex flex-row items-center justify-between pr-[2vw]">
+		<div class=" w-[200px]">
 			<a href="/"><img src="logo-reverse.svg" alt="" /></a>
 		</div>
 		<span on:click={toggleMenu} class="cursor-pointer text-3xl text-white">X</span>
@@ -46,7 +46,7 @@
 		<a class="text-3xl tracking-tighter" href="/services">Services</a>
 		<p class="text-3xl tracking-tighter" on:click={contactClick}>Contact</p>
 	</div>
-	<img src="sky-mark.svg" class="absolute bottom-0 right-0 z-10 w-[500px] opacity-25" alt="" />
+	<img src="sky-mark.svg" class="absolute -right-28 bottom-[5%] left-0 z-10 opacity-10" alt="" />
 </div>
 
 <style>
