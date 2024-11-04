@@ -17,6 +17,7 @@
 	imageUrlM="home-hero-mobile.jpg"
 	heading="Create"
 	message="Design anything, build everything"
+	href="#contact"
 ></Hero>
 <CenterText heading={subheading}
 	>At Forbes Coastal Builders, we treat your home as our own. We know full-house remodels can be

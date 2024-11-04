@@ -15,6 +15,7 @@
 	imageUrlD="about-hero.jpg"
 	imageUrlM="about-hero-mobile.jpg"
 	heading="Take Your Project To <br>the Next Level"
+	href="#contact"
 ></Hero>
 <CenterText
 	>As a family-owned business with 15 years of experience, we pride ourselves on the core values of

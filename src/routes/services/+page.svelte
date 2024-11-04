@@ -10,7 +10,11 @@
 </script>
 
 <NavBar></NavBar>
-<Hero imageUrlD="services-hero.jpg" imageUrlM="services-hero-mobile.jpg" heading="Build Anything"
+<Hero
+	imageUrlD="services-hero.jpg"
+	imageUrlM="services-hero-mobile.jpg"
+	heading="Build Anything"
+	href="#contact"
 ></Hero>
 
 <CenterText heading="Transform Your Home with FCB"

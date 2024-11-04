@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="relative flex h-24 flex-row items-center justify-between font-primary text-navy lg:h-24 lg:px-12 2xl:h-52 2xl:px-28"
+	class="relative flex h-24 flex-row items-center justify-between px-[5vw] font-primary text-navy lg:h-24 lg:px-12 2xl:h-52 2xl:px-28"
 >
 	<div class="">
 		<a href="/"
@@ -15,7 +15,7 @@
 		<a data-sveltekit-preload-code="eager" href="/about" class="text-center">About</a>
 		<a data-sveltekit-preload-code="eager" href="/services">Services</a>
 		<a href="#contact">Contact</a>
-		<Button>Schedule an Appointment</Button>
+		<Button href="#contact">Schedule an Appointment</Button>
 	</div>
 	<MobileMenu />
 </div>

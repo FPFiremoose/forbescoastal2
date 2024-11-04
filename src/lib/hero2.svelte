@@ -7,6 +7,7 @@
 	export let imageUrlD;
 	export let heading = 'Your Heading Here';
 	export let message;
+	export let href;
 
 	let imageUrl = ''; // This will hold the URL for the currently appropriate image
 
@@ -56,7 +57,7 @@
 			{/if}
 			<!-- Button component can be imported and used here -->
 			<div class="mt-4 md:mt-8">
-				<Button>Schedule an appointment</Button>
+				<Button {href}>Schedule an appointment</Button>
 			</div>
 		</div>
 	</div>
