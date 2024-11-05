@@ -8,7 +8,7 @@
 >
 	<div class="">
 		<a href="/"
-			><img src="logo.svg" class="w-44 lg:w-52 2xl:w-[250px]" alt="Forbes Coastal Logo" /></a
+			><img src="logo.svg" class="w-44 lg:w-52 2xl:w-[350px]" alt="Forbes Coastal Logo" /></a
 		>
 	</div>
 	<div class="hidden w-auto flex-row items-center gap-10 md:flex">

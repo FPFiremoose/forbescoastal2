@@ -1,9 +1,10 @@
 <script>
 	import Benefit from '$lib/benefit.svelte';
+	import Button from '$lib/button.svelte';
 	export let bg = '';
 </script>
 
-<section>
+<section class="flex flex-col items-center">
 	<div
 		class="flex flex-col justify-center gap-20 md:flex-row md:gap-10 {bg} px-[5vw] py-[10vh] md:px-24 md:pt-24"
 	>
@@ -23,4 +24,5 @@
 			the indoors and outdoors, we ensure that every space fits your lifestyle.</Benefit
 		>
 	</div>
+	<Button href="/services">Our Services</Button>
 </section>

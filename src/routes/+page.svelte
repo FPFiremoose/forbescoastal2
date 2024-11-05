@@ -23,8 +23,10 @@
 	>At Forbes Coastal Builders, we treat your home as our own. We know full-house remodels can be
 	stressful, so we offer a comprehensive approach to make it easier. Choosing us means getting a
 	dedicated team to help you through the process. We specialize in full-service remodelling,
-	committed to quality craftsmanship, client satisfaction, and exceptional designs.</CenterText
->
+	committed to quality craftsmanship, client satisfaction, and exceptional designs. <br /><br />
+	Choosing us means having a dedicated team to help you through the process. We specalize in full-service
+	remodelling - committed to quality craftsmanship, client satisfaction, and exceptional design.
+</CenterText>
 <ImageSplit heading={sec2heading}
 	>At FCB, we work to offer our clients a smooth, transparent experience, resulting in a beautifully
 	renovated home designed and built for their specific needs. We believe tha tyour outdoor living

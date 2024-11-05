@@ -31,6 +31,6 @@
 		</div>
 
 		<!-- Button component for a call-to-action -->
-		<Button>Schedule an appointment</Button>
+		<Button href="/services">Our Projects</Button>
 	</div>
 </section>

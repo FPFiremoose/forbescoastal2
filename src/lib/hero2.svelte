@@ -4,6 +4,7 @@
 
 	// You can pass in props for the image URLs, heading, and button text if needed
 	export let imageUrlM;
+	export let btnTxt = 'Schedule an Appointment';
 	export let imageUrlD;
 	export let heading = 'Your Heading Here';
 	export let message;
@@ -57,7 +58,7 @@
 			{/if}
 			<!-- Button component can be imported and used here -->
 			<div class="mt-4 md:mt-8 2xl:mt-[5vh]">
-				<Button {href}>Schedule an appointment</Button>
+				<Button {href}>{btnTxt}</Button>
 			</div>
 		</div>
 	</div>

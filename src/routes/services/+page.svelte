@@ -14,6 +14,7 @@
 	imageUrlD="services-hero.jpg"
 	imageUrlM="services-hero-mobile.jpg"
 	heading="Build Anything"
+	btnTxt="Next Steps"
 	href="#contact"
 ></Hero>
 

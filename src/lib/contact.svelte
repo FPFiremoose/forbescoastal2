@@ -4,7 +4,7 @@
 </script>
 
 <section
-	class="relative overflow-hidden px-[5vw] py-[5vh] pb-[10vh] md:px-20 md:py-24 2xl:px-[5vw]"
+	class="relative overflow-hidden px-[5vw] py-[5vh] pb-[10vh] md:px-20 md:py-16 2xl:px-[5vw]"
 >
 	<div class="pb-14 font-primary text-navy md:pb-12 2xl:pb-24">
 		<p id="contact" class="mb-1 text-sm md:text-lg 2xl:text-2xl">Message us</p>
