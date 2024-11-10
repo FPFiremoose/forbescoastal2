@@ -1,5 +1,6 @@
 <script>
 	export let src;
+	export let href;
 	export let heading;
 </script>
 
@@ -12,7 +13,13 @@
 			{heading}
 		</h3>
 		<p class="md:text-xl 2xl:text-2xl">
-			<slot></slot>
+			{#if href}
+				<a {href}>
+					<slot></slot>
+				</a>
+			{:else}
+				<slot></slot>
+			{/if}
 		</p>
 	</div>
 </div>

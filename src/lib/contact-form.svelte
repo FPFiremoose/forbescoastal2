@@ -5,6 +5,7 @@
 		phone: '',
 		message: ''
 	};
+	let success = null;
 
 	async function handleSubmit() {
 		try {
@@ -17,14 +18,16 @@
 			});
 			const result = await response.json();
 			console.log('Form submitted successfully:', result);
+			success = true;
 		} catch (error) {
 			console.error('Error submitting form:', error);
+			success = false;
 		}
 	}
 </script>
 
 <form
-	class="relative z-10 mx-auto w-full basis-1/2 space-y-4 rounded-lg"
+	class="relative z-10 mx-auto flex w-full basis-1/2 flex-col space-y-4 rounded-lg"
 	on:submit|preventDefault={handleSubmit}
 >
 	<div>
@@ -78,4 +81,15 @@
 			>Submit</button
 		>
 	</div>
+	{#if success !== null}
+		{#if success}
+			<div class="flex flex-col justify-center border border-green-500 bg-white py-1 text-center">
+				Message submitted successfully. We will get back to you soon!
+			</div>
+		{:else}
+			<div class="flex flex-col justify-center border border-red-500 bg-white py-1 text-center">
+				Oops! Looks like there was an issue with the form. Please try again.
+			</div>
+		{/if}
+	{/if}
 </form>
